@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserCreatedEventDTO {
-    String id;
+    Long id;
     String name;
     String email;
 }
